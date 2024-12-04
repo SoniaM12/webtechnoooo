@@ -1,0 +1,1099 @@
+.home {
+    background-color: #000000;
+    height: 100vh;                
+    margin: 0; 
+}
+
+    
+header {
+    background-color: rgb(124, 0, 240);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px 30px; 
+    margin: auto;
+}
+
+header nav {
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 30px; 
+    margin-right: 30px;
+}
+
+header h1 a {
+    color: #00FFB3;
+    font-family: "Ethnocentric";
+    font-size: 40px;
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: #00FFB3;
+    font-family: "Lato";
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.titolohome p {
+    color: #8cff00;
+    font-family:"Orbitron";
+    font-size: 50px;
+    font-style: normal;
+    padding-bottom: 0;
+    line-height: 0%;
+    text-align: center;
+    
+}    
+
+.homepage {
+    margin: auto;
+    max-width: 1036px;
+}
+
+.cheneso img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 0;
+    text-align: center;
+}
+
+.testohome{
+    margin-top: 100px;
+}
+
+.testohome h1 {
+    color: #9B4DFF;
+    font-family: "Orbitron";
+    font-size: 30px;
+    font-style: normal;
+    line-height: 150%; 
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.testohome p {
+    color: #FFF;
+    font-family: "inconsolata";
+    font-size: 25px;
+    font-style: normal;
+    line-height: 150%; ;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.testohome p:nth-of-type(3) {
+    color: rgb(0, 255, 225)
+}
+
+.videohome {
+    height: 150%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.ultimorigo{
+    color: #00FFFF;
+    font-family: "Orbitron";
+    font-size: 30px;
+    font-style: normal;
+    line-height: 150%; 
+    text-transform: uppercase;
+    margin: auto;
+}
+.testoultimo{
+    color: #FFF;
+    font-family: "inconsolata";
+    font-size: 25px;
+    font-style: normal;
+    line-height: 150%; ;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.storia {
+        background-image: url("giphy.gif");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+}
+.festival {
+    margin: 0;
+    padding: 0;
+    background-image:url(sfondofest.png);
+    background-size: cover;
+    background-position: center;    
+    height: 100%;
+    width: 100%;
+}
+
+.titoloindice {
+    color: #8cff00;
+    font-family: "Orbitron";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.titoloindice1 {
+    color: #00FFB3;
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: 32px;
+    width: 100%; 
+    max-width: 734px; 
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.titoloindice2 {
+    color: #00A3FF;
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: 32px;
+    width: 100%; 
+    max-width: 734px; 
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.titoloindice3 {
+    color: #AB63FF;
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: 32px;
+    width: 100%; 
+    max-width: 734px; 
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.titoloindice4 {
+    color: #F96900;
+    text-align: center;
+    font-family: "Orbitron";
+    font-size: 32px;
+    width: 100%; 
+    max-width: 734px; 
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+
+.cornice-1, .cornice-2, .cornice-3, .cornice-4, .cornice-5 {
+    border: 2px solid; 
+    padding: 10px; 
+    width: 664px;
+    height: 75px; 
+    color: #ffffff;
+    font-family: "Orbitron";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    margin: auto; 
+    margin-top: 20px;
+}
+
+.cornice-1 { border-color: #00FFB3; margin-top: 100px; }
+.cornice-2 { border-color: #00A3FF; }
+.cornice-3 { border-color: #AB63FF; }
+.cornice-4 { border-color: #F96900; }
+
+a {
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: white;
+}
+.imgstoria {
+    display: flex; /* Attiva Flexbox */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+}
+.story1 {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+}
+.story2 {
+    margin: 0;
+    padding: 0;
+    background-color: black ;
+    height: 100%;
+    width: 100%;
+}
+
+.story3 {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+}
+
+.story4 {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+}
+.contento {
+    color: white;
+    font-family: "Lato";
+    font-size: 22px;
+    font-style: normal;
+    line-height: 150%; 
+    width: 660px;
+    flex-shrink: 0;
+    margin: auto;
+    font-weight: 700;
+   
+}
+
+.contenuto {
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 18px;
+    line-height: 150%; 
+    width: 660px;
+    flex-shrink: 0;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.frecciadestra {
+    text-align: center; /* Centra la freccia all'interno del contenitore */
+    margin-top: 20px;
+}
+.frecciasinistra {
+    text-align: center; /* Centra la freccia all'interno del contenitore */
+    margin-top: 20px;
+}
+
+.arrow-link img {
+    width: 50px; /* Adatta la dimensione dell'immagine */
+    height: auto; /* Mantiene le proporzioni */
+    transition: transform 0.3s ease; /* Aggiunge un'animazione */
+}
+
+.arrow-link:hover img {
+    transform: translateX(10px); /* Sposta la freccia verso destra al passaggio del mouse */
+}
+
+
+.arrow-link {
+    text-decoration: none;
+}
+
+
+.rettangolo {
+    background-color: #a200ff; 
+    color: #ffffff; 
+    font-family: "lato";
+    font-size: 20px; 
+    border-radius: 10px; 
+    text-align: center;
+    line-height: 59px;
+    width: 40px;
+    height: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+.festival{
+    background-image: url("sfondofestt.gif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.festivalgenerale h1 {
+    color: #1aff00;
+    font-family: "Orbitron";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 800px;
+    margin: auto;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.festivalgenerale p {
+    color: #ffffff;
+    font-family: "Inconsolata";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1.4px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.esplora p {
+    color: #ffffff;
+    font-family: "Orbitron";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+    margin-top: 70px; 
+    text-align: center;
+}
+
+.elencofestival {
+    color: white;
+    font-family: "Inconsolata";
+    font-size: 25px;
+    text-align: center;
+    font-style:oblique;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.elencofestival a {
+    color: #0000ff;
+    font-family: "Inconsolata";
+    font-size: 30px;
+    text-align: center;
+    font-style:oblique;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.festivalgenerale ul li a:hover {
+    text-decoration: underline;
+}
+
+.diecifestival {
+    background-color: #000000;
+    text-align: center;
+}
+.ifestival{
+    margin-top: 50px;
+}
+.ifestival h1 {
+    color: #00FFB3;
+    font-family: "Orbitron";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.festivalimg img {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.ifestival h2 {
+    color: #C7F900;
+    font-family: "Orbitron";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.ifestival p {
+    color: #FFFFFF;
+    font-family: "Inconsolata";
+    text-align: left;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 150%; 
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.condizioni {
+    margin-top: 70px;
+    color: #00FFB3;
+    font-family: "Archivo";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+
+.outer-container {
+    position: absolute; /* Necessario per il posizionamento assoluto dell'immagine interna */
+    display: inline-block; /* Per adattarsi alle dimensioni dell'immagine esterna */
+}
+
+.outer-image {
+    display: block; /* Per evitare spazi indesiderati sotto l'immagine */
+    width: 100%; /* Adatta la larghezza dell'immagine al contenitore */
+}
+
+.inner-container {
+    position: absolute; /* Posiziona l'immagine interna sopra quella esterna */
+    top: 50px; /* Regola la posizione verticale dell'immagine interna */
+    left: 35px; /* Regola la posizione orizzontale dell'immagine interna */
+    width: 80%; /* Dimensioni dell'immagine interna */
+    height: 80%; /* Mantiene le proporzioni dell'immagine interna */
+}
+
+.inner-image {
+    width: 90%; /* Adatta la larghezza dell'immagine interna al contenitore */
+    height: auto; /* Mantiene le proporzioni dell'immagine interna */
+}
+.musica{
+    background-image: url(background-gradient-lights.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+.playlist{
+    margin-top: 120px;
+}
+
+.playlist-row {
+    display: flex; /* Attiva Flexbox */
+    align-items: center; /* Allinea verticalmente gli elementi */
+    gap: 10px; /* Spaziatura tra gli elementi */
+}
+
+.playlist-row img {
+    display: block; /* Assicura che le immagini siano trattate come blocchi */
+}
+.playlist h1{
+    color: #FFF;
+ text-align: left;
+ font-family: "Orbitron";
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 111.542%; /* 35.694px */
+ letter-spacing: 2.24px;
+ text-transform: uppercase;
+ margin-left: 50px;
+}
+
+.playlist h2{
+    color: #FFF;
+ text-align: left;
+ font-family: "Orbitron";
+ font-size: 20px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 111.542%; /* 35.694px */
+ letter-spacing: 2.24px;
+ text-transform: uppercase;
+ margin-left: 50px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px; 
+    margin-top: 50px;
+}
+
+.photo-row a {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.photo-row img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.photo-row2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 10px; 
+}
+
+.photo-row2 a {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.photo-row2 img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    background-color: blueviolet;
+    color: #00FFB3;
+    padding: 50px;
+    text-align: right;
+    margin-top:  500px;
+    margin-top: auto;
+}
+
+.footer-links a {
+    color: #00FFB3;
+    font-family: "Lato";
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (max-width: 1000px)
+
+
+{
+
+    header {
+        background-color: rgb(124, 0, 240);
+        align-items: center; 
+        padding: 10px 20px; 
+        margin: auto;
+        height: 70px;
+    }
+    
+    header nav {
+        margin-right: 10px;
+    }
+    
+    header nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+
+    }
+    
+    header nav ul li {
+        margin-left: 30px; 
+        margin-right: 30px;
+    }
+    
+    header h1 a {
+        color: #00FFB3;
+        font-family: "Ethnocentric";
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    header nav ul li a {
+        color: #00FFB3;
+        font-family: "Lato";
+        font-size: 12px;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .titolohome p {
+        color: #8cff00;
+        font-family:"Orbitron";
+        font-size: 20px;
+        font-style: normal;
+        padding-bottom: 0;
+        line-height: 0%;
+        text-align: center;
+        
+    }    
+    
+    .testohome h1 {
+        color: #9B4DFF;
+        font-family: "Orbitron";
+        font-size: 15px;
+        max-width: 550px;
+        font-style: normal;
+        line-height: 150%; 
+        text-transform: uppercase;
+        margin: auto;
+        width: 300px;
+    }
+    
+    .testohome p {
+        color: #FFF;
+        font-family: "inconsolata";
+        font-size: 13px;
+        font-style: normal;
+        line-height: 150%; ;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 300px;
+    }
+    
+    .testohome p:nth-of-type(3) {
+        color: rgb(0, 255, 225)
+    }
+    
+    .videohome video {
+        max-width: 100%;
+        height: 300px;
+        height: auto;
+        display: block;    
+    }
+    
+    .ultimorigo{
+        color: #00FFFF;
+        font-family: "Orbitron";
+        font-size: 15px;
+        font-style: normal;
+        line-height: 150%; 
+        text-transform: uppercase;
+        margin: auto;
+        width: 300px;
+    }
+    .testoultimo{
+        color: #FFF;
+        font-family: "inconsolata";
+        font-size: 13px;
+        font-style: normal;
+        line-height: 150%; ;
+        margin: auto;
+        margin-bottom: 30px;
+        width: 300px;
+    
+    }
+    
+    .titoloindice {
+        color: #8cff00;
+        font-family: "Orbitron";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; 
+        text-transform: uppercase;
+        margin: auto;
+        text-align: center;
+        margin-top: 100px;
+        width: 400px;
+    }
+    
+    .cornice-1, .cornice-2, .cornice-3, .cornice-4, .cornice-5 {
+        border: 2px solid; 
+        padding: 5px; 
+        width: 400px;
+        color: #ffffff;
+        font-family: "Orbitron";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        text-align: center;
+        margin: auto; 
+        margin-top: 20px;
+    }
+    
+    .cornice-1 { border-color: #00FFB3; margin-top: 100px; }
+    .cornice-2 { border-color: #00A3FF; }
+    .cornice-3 { border-color: #AB63FF; }
+    .cornice-4 { border-color: #F96900; }
+    
+    a {
+        color: rgb(255, 255, 255); 
+        text-decoration: none; 
+    }
+    
+    a:hover {
+        text-decoration: underline; 
+        color: white;
+    }
+
+    .titoloindice1 {
+        color: #00FFB3;
+        text-align: center;
+        font-family: "Orbitron";
+        font-size: 20px;
+        width: 100%; 
+        max-width: 600px; 
+        margin: 0 auto; 
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    
+    .titoloindice2 {
+        color: #00A3FF;
+        text-align: center;
+        font-family: "Orbitron";
+        font-size: 20px;
+        width: 100%; 
+        max-width: 500px; 
+        margin: 0 auto; 
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    
+    .titoloindice3 {
+        color: #AB63FF;
+        text-align: center;
+        font-family: "Orbitron";
+        font-size: 20px;
+        width: 100%; 
+        max-width: 734px; 
+        margin: 0 auto; 
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    
+    .titoloindice4 {
+        color: #F96900;
+        text-align: center;
+        font-family: "Orbitron";
+        font-size: 20px;
+        width: 100%; 
+        max-width: 734px; 
+        margin: 0 auto; 
+        margin-top: 100px;
+        margin-bottom: 60px;
+    }
+    
+    .contento {
+        color: white;
+        font-family: "Lato";
+        font-size: 13px;
+        font-style: normal;
+        line-height: 150%; 
+        width: 400px;
+        flex-shrink: 0;
+        margin: auto;
+        font-weight: 700;
+       
+    }
+    
+    .contenuto {
+        color: rgb(255, 255, 255);
+        font-family: "Lato";
+        font-size: 13px;
+        line-height: 150%; 
+        width: 400px;
+        flex-shrink: 0;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    .arrow-left {
+        display: inline-block;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-right: 20px solid #1aff00;
+        display:flex;
+        text-align: center;
+        max-width: fit-content;
+        margin: auto;
+    }
+    
+    .arrow-right {
+        display: inline-block;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 20px solid #1aff00;
+        display:flex;
+        text-align: center;
+        max-width: fit-content;
+        margin: auto;
+    }
+    
+    .arrow-link {
+        text-decoration: none;
+    }
+    
+    
+    .rettangolo {
+        background-color: #a200ff; 
+        color: #ffffff; 
+        font-family: "lato";
+        font-size: 18px; 
+        border-radius: 19px; 
+        text-align: center;
+        line-height: 59px;
+        width: 206px;
+        height: 59px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .imgstoria img {
+        max-width: 100%;
+        height: 300px;
+        height: auto;
+        display: block;    
+    }
+
+    .festival{
+        background-image: url("sfondofestt.gif");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .festivalgenerale h1 {
+        color: #1aff00;
+        font-family: "Orbitron";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 400px;
+        margin: auto;
+        margin-top: 80px;
+        text-transform: uppercase;
+    }
+    
+    .festivalgenerale p {
+        color: #ffffff;
+        font-family: "Inconsolata";
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 1.4px;
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .esplora p {
+        color: #ffffff;
+        font-family: "Orbitron";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: auto;
+        margin-top: 70px; 
+        text-align: center;
+    }
+    
+    .elencofestival {
+        color: white;
+        font-family: "Inconsolata";
+        font-size: 25px;
+        text-align: center;
+        font-style:oblique;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+    .elencofestival a {
+        color: #0000ff;
+        font-family: "Inconsolata";
+        font-size: 20px;
+        text-align: center;
+        font-style:oblique;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+
+    .ifestival h1 {
+        color: #00FFB3;
+        font-family: "Orbitron";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    
+    .festivalimg img {
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        object-fit: cover;
+        margin-bottom: 50px;
+    }
+    
+    .ifestival h2 {
+        color: #C7F900;
+        font-family: "Orbitron";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; 
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+    
+    .ifestival p {
+        color: #FFFFFF;
+        font-family: "Inconsolata";
+        text-align: left;
+        font-size: 15px;
+        font-style: normal;
+        line-height: 150%; 
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    .condizioni {
+        margin-top: 70px;
+        color: #00FFB3;
+        font-family: "inconsolata";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        text-transform: uppercase;
+        margin: auto;
+    }
+    
+    .musica{
+        background-image: url(background-gradient-lights.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .playlist{
+        margin-top: 80px;
+    }
+    
+    .playlist-row {
+        display: flex; /* Attiva Flexbox */
+        align-items: center; /* Allinea verticalmente gli elementi */
+        gap: 5px; /* Spaziatura tra gli elementi */
+    }
+    
+    .playlist-row img {
+        display: block; /* Assicura che le immagini siano trattate come blocchi */
+    }
+    .playlist h1{
+     color: #FFF;
+     text-align: left;
+     font-family: "Orbitron";
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-left: 50px;
+    }
+    
+    .playlist h2{
+     color: #FFF;
+     text-align: left;
+     font-family: "Orbitron";
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 300;
+     text-transform: uppercase;
+     margin-left: 50px;
+    }
+    
+    .photo-row {
+        display: flex;
+        justify-content: space-around;
+        gap: 5px; 
+        margin-top: 50px;
+    }
+    
+    .photo-row a {
+        display: block;
+        margin-bottom: 100px;
+    }
+    
+    .photo-row img {
+        width: 150px;
+        height: auto;
+        display: block;
+    }
+    
+    .photo-row2 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+        gap: 5px; 
+    }
+    
+    .photo-row2 a {
+        display: block;
+        margin-bottom: 100px;
+    }
+    
+    .photo-row2 img {
+        width: 100px;
+        height: auto;
+        display: block;
+    }
+    
+    .footer {
+        background-color: blueviolet;
+        color: #00FFB3;
+        padding: 30px;
+        text-align: right;
+        height: 50px;
+        margin-top: 100px;
+        margin-top: auto;
+    }
+    
+    .footer-links a {
+        color: #00FFB3;
+        font-family: "Lato";
+        font-size: 15px;
+        line-height: 50px;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 30px;
+    }
+    
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+    
+
+
+}
